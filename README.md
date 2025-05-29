@@ -4,12 +4,6 @@ A sleek and responsive **Internship Search UI**, built with **React + TypeScript
 
 ---
 
-## 📸 Preview
-
-> _Screenshot coming soon_  
-> _(You can add a screenshot here using `![alt text](path/to/image.png)` if needed)_
-
----
 
 ## 🧰 Tech Stack
 
@@ -26,7 +20,7 @@ A sleek and responsive **Internship Search UI**, built with **React + TypeScript
 
 ```bash
 git clone https://github.com/your-username/internship-finder-ui.git
-cd internship-finder-ui
+cd Internship-Search-Page
 ````
 
 2. **Install dependencies:**
@@ -56,10 +50,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 ```
 src/
 ├── components/        # Reusable UI components (InternshipCard, Filters, etc.)
-├── data/              # Static internship JSON data
-├── pages/             # Main layout or page components
-├── App.tsx            # App entry point
-└── main.tsx           # Vite bootstrap
+├── hooks/              # for fetching internship data
+├── App.jsx            # App entry point
+└── main.jsx           # Vite bootstrap
 ```
 
 ---
@@ -72,14 +65,6 @@ src/
 * 🧼 Clean and minimal design using MUI
 * 💻 Fast build and hot reload with Vite
 
----
-
-## 🚀 Future Enhancements
-
-* 🌐 Real API integration
-* 🌙 Dark mode support
-* 📦 Pagination or infinite scroll
-* 📱 Mobile optimizations
 
 ---
 
@@ -98,9 +83,9 @@ This project is licensed under the **MIT License**.
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by [Your Name](https://github.com/your-username)
+Made with ❤️ by [Priyanshu Jaj](https://github.com/your-username)
 
-> *Replace `your-username` with your GitHub handle throughout this file.*
+> *Replace `priyanshu1129` with your GitHub handle throughout this file.*
 
 ```
 
