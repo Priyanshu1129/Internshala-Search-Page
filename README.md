@@ -1,12 +1,108 @@
-# React + Vite
+# 🚀 Internshala Search Page UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive **Internship Search UI**, built with **React + TypeScript**, powered by **Material UI (MUI)** — replicating Internshala’s core internship listing functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+> _Screenshot coming soon_  
+> _(You can add a screenshot here using `![alt text](path/to/image.png)` if needed)_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React + TypeScript
+- 🎨 Material UI (MUI)
+- ⚡ Vite
+- 🔍 Client-side Filtering
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/internship-finder-ui.git
+cd internship-finder-ui
+````
+
+2. **Install dependencies:**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. **Visit the app:**
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/        # Reusable UI components (InternshipCard, Filters, etc.)
+├── data/              # Static internship JSON data
+├── pages/             # Main layout or page components
+├── App.tsx            # App entry point
+└── main.tsx           # Vite bootstrap
+```
+
+---
+
+## 🧪 Features
+
+* 🔍 Search internships by **Profile**, **Location**, and **Duration**
+* 💡 Responsive card-based UI
+* 🧰 Reusable, modular React components
+* 🧼 Clean and minimal design using MUI
+* 💻 Fast build and hot reload with Vite
+
+---
+
+## 🚀 Future Enhancements
+
+* 🌐 Real API integration
+* 🌙 Dark mode support
+* 📦 Pagination or infinite scroll
+* 📱 Mobile optimizations
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Fork the repo, make your changes, and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [Your Name](https://github.com/your-username)
+
+> *Replace `your-username` with your GitHub handle throughout this file.*
+
+```
+
+Let me know if you also want a `LICENSE` file or contribution guidelines (`CONTRIBUTING.md`)!
+```
